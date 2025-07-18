@@ -43,7 +43,7 @@ src/
 │ │ └── service/impl/
 │ └── resources/
 │ ├── application.properties
-│ └── schema.sql (optional)
+
 
 pgsql
 Copy
@@ -56,7 +56,7 @@ Edit
 | Method | Endpoint               | Description            |
 |--------|------------------------|------------------------|
 | POST   | `/api/product`         | Add new product        |
-| GET    | `/api/getAllProduct`   | Get all products       |
+| GET    | `/api/products`        | Get all products       |
 | PUT    | `/api/product`         | Update existing product|
 | DELETE | `/api/product/{name}`  | Delete product by name |
 
